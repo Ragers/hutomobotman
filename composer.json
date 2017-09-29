@@ -1,0 +1,32 @@
+{
+    "name": "mpociot/cisco-spark-demo",
+    "platform": {
+        "php": "7.0"
+    },
+    "description": "BotMan + Cisco Spark demo",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcel Pociot",
+            "email": "m.pociot@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "botman/driver-cisco-spark": "~1.0",
+        "vlucas/phpdotenv": "^2.4",
+        "doctrine/cache": "^1.6"
+    },
+    "scripts": {
+      "post-install-cmd": [
+            "mkdir cache",
+            "sudo chmod 777 cache"
+        ],
+      "post-update-cmd": [
+            "mkdir cache",
+            "sudo chmod 777 cache"
+        ]
+    }
+}
