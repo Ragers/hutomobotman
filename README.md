@@ -15,6 +15,9 @@ It uses BotMan framework to wrap all the commands and outputs.
 
 Just replace `--YOUR-AUTHORIZATION-TOKEN--` with your token and `--YOUR-URL--` with your bot URL.
 
+- Create a Hutomo.ai bot and start by going to the marketplace and give it some basic skills (or just train your bot from scratch).
+- With the created bot:
+
 Add `--HUTOMO_CLIENT_KEY--` with your Hutomo.ai Client Key, found under settings of your Hutomo.ai bot.
 
 Add `--HUTOMO_BOT_ID--` with your Hutomo.ai Bot ID, found under settings of your Hutomo.ai bot.
